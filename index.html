@@ -22,6 +22,16 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <style>
+    .success a {
+      color : #2C3E50;
+      //text-decoration:underline;
+    }
+    ul {
+      font-size:20 px;
+    }
+    </style>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -109,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 text-justify">
-                    <p>Each use-case lives in a separate GitHub repository under the <a style="color:white;text-decoration:underline" href="https://github.com/mde4edu">MDE4EDU GitHub Organisation</a>. The description of the use-case resides in the README.MD file (home page) of the repository. Feel free to browse through the available use-cases, to use them as they are, or to adapt them according to your needs. Now, if you would like to go a step further and contribute to this initiative, please read on.</p>
+                    <p>Each use-case lives in a separate GitHub repository under the <a href="https://github.com/mde4edu">MDE4EDU GitHub Organisation</a>. The description of the use-case resides in the README.MD file (home page) of the repository. Feel free to browse through the available use-cases, to use them as they are, or to adapt them according to your needs. Now, if you would like to go a step further and contribute to this initiative, please read on.</p>
                 </div>
             </div>
         </div>
@@ -133,12 +143,40 @@
                     <ol style="font-size:20px">
                       <li> The easiest way is to help us "rank" existing use-cases according to their completeness and usefulness. You can do this by starring the repositories of use-cases you like.
                       <li> To help contributors improve their use-cases, you can create GitHub issues with comments and suggestions in the respective repositories.
-                      <li> When you are ready to contribute a new case study, you can create a new GitHub Issue in the <a href="https://github.com/mde4edu/mde4edu.github.io/issues/new">mde4edu.github.io repository</a> and ask us to grant you write access to the MDE4EDU GitHub organisation. Once you have access, you can create a new repository under the organisation and share your use-case there.
+                      <li> When you are ready to contribute a new case study, you can create a new GitHub Issue in the <a href="https://github.com/mde4edu/mde4edu.github.io/issues/new">mde4edu.github.io repository</a> and ask us to grant you write access to the MDE4EDU GitHub organisation. Once you have access, you can create a new repository under the organisation and share your use-case there. You don't need to provide an implementation; a brief description that the community can discuss and improve over time is more than welcome.
                     </ol>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Contact class="success" Section -->
+    <section class="success" id="how-can-i-contribute">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>What is a "good" use-case?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-justify">
+                    <p>It's unikely that we have a bulletproof answer at this stage, however, it's worth considering the following:
+                    </p>
+                    <ol style="font-size:20px">
+                      <li> It should be realistic. For example, defining a <a href="https://www.ibm.com/developerworks/library/os-eclipse-dynamicemf/">bookstore/library metamodel</a> and generating a HTML page from a model that conforms to it, is hardly something that a practitioner would ever need to do.
+                      <li> It should not attempt to reinvent the wheel. For example, generating a bespoke object-relational mapping layer from a UML class diagram is unlikely to be a wise choice for a practitioner in the era of <a href="http://hibernate.org/">Hibernate</a>.
+                      <li> It should not involve (many) non-MDE technologies that university students are unlikely to be familiar with. Doing so could shift the focus from MDE to these technologies and be counter-productive - particularly for a short MDE course.
+                    </ol>
+
+                    <p>In case of doubt, be brave, share your use-case, and let the community help you improve it.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- Footer -->
     <footer class="text-center">
